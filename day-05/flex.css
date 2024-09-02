@@ -1,0 +1,20 @@
+.flexibleparent{
+    height: 500px;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+    
+
+
+.f-child{
+    height:150px ;
+    width: 150px;
+    background-color: aqua;
+    margin: 10px;
+}
